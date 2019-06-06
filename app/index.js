@@ -14,6 +14,7 @@ render(
   document.getElementById('root')
 );
 
+// 热更新
 if (module.hot) {
   module.hot.accept('./containers/Root', () => {
     // eslint-disable-next-line global-require
